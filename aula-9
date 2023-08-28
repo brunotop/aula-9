@@ -1,0 +1,71 @@
+/*let nome = prompt("Qual seu nome?");
+let cor = prompt("Qual sua cor favorita?");
+
+console.log("A cor favorita de " + nome + " é " + cor);
+console.log(`A cor favorita de ${nome} é ${cor}`);
+
+//retornar o numero de caracteres em uma string;
+console.log(nome.length);
+//retornar a string convertida para minusculo;
+console.log(nome.toLowerCase());
+//retorna a string convertida para maiuscula;
+console.log(nome.toUpperCase());
+//retira os espaços ao redor da string;
+console.log(nome.trim());
+
+//metodo para buscar determinado texto dentro de uma string;
+console.log(nome.includes("cenoura"));
+// troca o texto da string pelo texto fornecid
+//replaceAll("texto antigo","texto novo")
+console.log(nome.replaceAll("cenoura","batata"));
+
+
+let frase = prompt("Escreva uma pequena frase");
+console.log(frase.toUpperCase());
+console.log(frase.replaceAll("o", "i"));
+console.log(frase.length);
+
+
+//arrays
+let listaDeExercicios =["elevacao lateral", "supino", "voador"];
+console.log(listaDeExercicios[0]);
+console.log(listaDeExercicios[1]);
+console.log(listaDeExercicios[2]);
+console.log(listaDeExercicios);
+
+
+
+let raçadecachorro = ["golden", "pastor alemao", "pitbull", "doberman", "pincher"];
+let numero = Number(prompt("escolha um numero de 0 a 4"));
+console.log(raçadecachorro[0]);
+console.log(raçadecachorro[1]);
+console.log(raçadecachorro[2]);
+console.log(raçadecachorro[3]);
+console.log(raçadecachorro[4]);
+console.log(numero);
+console.log("O numero ", numero, "que voce escolheu pertence a raça de cachorro ",(raçadecachorro[numero]));
+
+const pokemon = ["bulbasauro", "squirtle", "charmander"];
+console.log(pokemon.length);
+console.log(pokemon[0].length);
+
+
+const seriesBoas = ["Breaking Bad", "Brooklyn Nine-nine"]
+console.log(seriesBoas.includes("Breaking Bad"));
+console.log(seriesBoas.includes("Game of Thrones"));
+
+
+let instrumentos = ["violao", "guitarra", "bateria"];
+instrumentos.push("teclado");
+console.log(instrumentos);
+instrumentos.pop();
+console.log(instrumentos);
+instrumentos.splice(1,1);
+console.log(instrumentos);
+*/
+//Exercicio
+let tamanho = ["1", "2", "3", "4", "5", "6"];
+tamanho.push(7);
+tamanho.splice(3, 2);
+console.log(tamanho.length);
+
